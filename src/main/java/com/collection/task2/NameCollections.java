@@ -35,7 +35,6 @@ public class NameCollections {
     }
 
 
-
     private Set<String> generateSetName(int a) {
         NameGenerator generator = new NameGenerator();
         List<Name> names = generator.generateNames(a);
@@ -67,5 +66,8 @@ public class NameCollections {
         setUnion.addAll(collectionNames2);
         return setUnion;
     }
+
+
+
 
 }
