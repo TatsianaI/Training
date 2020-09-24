@@ -16,7 +16,7 @@ public class RestAssuredExample {
             public int compare(Currency c1, Currency c2) {
                 Long var1 = c1.getCurId();
                 Long var2 = c2.getCurId();
-                if (var1 > var2) {
+                if (var1 < var2) {
                     return -1;
                 } else if (var1 == var2) {
                     return 0;
