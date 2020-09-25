@@ -1,0 +1,1420 @@
+[1601032184.570][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45136
+[1601032184.570][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601032185.225][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\tasks\\CollectionTask\\build\\downloads\\1601032182619_28100_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\tasks\\CollectionTask\\build\\downloads\\1601032182619_28100_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601032185.233][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\tasks\\CollectionTask\\build\\downloads\\1601032182619_28100_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601032185.234][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601032185.235][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Tatsiana\AppData\Local\Temp\scoped_dir28116_136000131" data:,
+[1601032186.120][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601032188.142][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601032190.150][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Tatsiana\\AppData\\Local\\Temp\\scoped_dir28116_136000131"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:15489"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "854e403cfa51beb33767170d0931b2c0"
+}
+[1601032190.180][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1601032190.180][INFO]: Waiting for pending navigations...
+[1601032190.183][INFO]: Done waiting for pending navigations. Status: ok
+[1601032190.290][INFO]: Waiting for pending navigations...
+[1601032190.291][INFO]: Done waiting for pending navigations. Status: ok
+[1601032190.291][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1601032190.297][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND Navigate {
+   "url": "https://e-dostavka.by"
+}
+[1601032190.297][INFO]: Waiting for pending navigations...
+[1601032190.298][INFO]: Done waiting for pending navigations. Status: ok
+[1601032190.716][INFO]: Waiting for pending navigations...
+[1601032194.933][INFO]: Done waiting for pending navigations. Status: ok
+[1601032194.933][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE Navigate
+[1601032195.072][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='main_menu__inner']//i[@class='fa fa-search']"
+}
+[1601032195.072][INFO]: Waiting for pending navigations...
+[1601032195.074][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.096][INFO]: Waiting for pending navigations...
+[1601032195.097][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.098][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "114d6fcb-70d8-42ea-ad60-394bbaac3f34"
+}
+[1601032195.153][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "114d6fcb-70d8-42ea-ad60-394bbaac3f34"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032195.153][INFO]: Waiting for pending navigations...
+[1601032195.155][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.174][INFO]: Waiting for pending navigations...
+[1601032195.176][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.176][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032195.183][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ClickElement {
+   "id": "114d6fcb-70d8-42ea-ad60-394bbaac3f34"
+}
+[1601032195.184][INFO]: Waiting for pending navigations...
+[1601032195.184][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.340][INFO]: Waiting for pending navigations...
+[1601032195.359][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.359][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ClickElement
+[1601032195.367][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='searchtext']"
+}
+[1601032195.367][INFO]: Waiting for pending navigations...
+[1601032195.371][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.388][INFO]: Waiting for pending navigations...
+[1601032195.393][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.393][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.408][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032195.408][INFO]: Waiting for pending navigations...
+[1601032195.409][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.434][INFO]: Waiting for pending navigations...
+[1601032195.437][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.437][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript false
+[1601032195.441][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementCSSProperty {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284",
+   "propertyName": "opacity"
+}
+[1601032195.441][INFO]: Waiting for pending navigations...
+[1601032195.442][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.454][INFO]: Waiting for pending navigations...
+[1601032195.458][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.458][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementCSSProperty "1"
+[1601032195.462][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.462][INFO]: Waiting for pending navigations...
+[1601032195.464][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.467][INFO]: Waiting for pending navigations...
+[1601032195.468][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.468][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "input"
+[1601032195.478][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0ab522de-120b-4699-8732-40e5ff696284",
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032195.478][INFO]: Waiting for pending navigations...
+[1601032195.479][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.483][INFO]: Waiting for pending navigations...
+[1601032195.484][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.484][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+   "autocomplete": "off",
+   "id": "searchtext",
+   "name": "searchtext",
+   "placeholder": "Поиск товаров",
+   "type": "text",
+   "value": ""
+}
+[1601032195.496][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032195.496][INFO]: Waiting for pending navigations...
+[1601032195.497][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.504][INFO]: Waiting for pending navigations...
+[1601032195.508][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.508][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript ""
+[1601032195.511][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.512][INFO]: Waiting for pending navigations...
+[1601032195.513][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.524][INFO]: Waiting for pending navigations...
+[1601032195.526][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.526][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032195.539][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032195.540][INFO]: Waiting for pending navigations...
+[1601032195.541][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.550][INFO]: Waiting for pending navigations...
+[1601032195.551][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.551][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032195.556][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.556][INFO]: Waiting for pending navigations...
+[1601032195.559][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.577][INFO]: Waiting for pending navigations...
+[1601032195.579][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.579][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText ""
+[1601032195.582][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.582][INFO]: Waiting for pending navigations...
+[1601032195.583][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.586][INFO]: Waiting for pending navigations...
+[1601032195.587][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.587][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "input"
+[1601032195.609][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032195.609][INFO]: Waiting for pending navigations...
+[1601032195.611][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.621][INFO]: Waiting for pending navigations...
+[1601032195.627][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.627][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032195.630][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementCSSProperty {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284",
+   "propertyName": "opacity"
+}
+[1601032195.630][INFO]: Waiting for pending navigations...
+[1601032195.631][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.637][INFO]: Waiting for pending navigations...
+[1601032195.642][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.642][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementCSSProperty "1"
+[1601032195.849][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='searchtext']"
+}
+[1601032195.849][INFO]: Waiting for pending navigations...
+[1601032195.850][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.862][INFO]: Waiting for pending navigations...
+[1601032195.863][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.863][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.879][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0ab522de-120b-4699-8732-40e5ff696284"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032195.880][INFO]: Waiting for pending navigations...
+[1601032195.881][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.892][INFO]: Waiting for pending navigations...
+[1601032195.893][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.893][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032195.900][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ClearElement {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284"
+}
+[1601032195.900][INFO]: Waiting for pending navigations...
+[1601032195.901][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.936][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1601032195.961][INFO]: Waiting for pending navigations...
+[1601032195.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601032195.963][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ClearElement
+[1601032195.977][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND TypeElement {
+   "id": "0ab522de-120b-4699-8732-40e5ff696284",
+   "text": "Кофе натуральный молотый «Barista Mio» 100% арабика, 250",
+   "value": [ "К", "о", "ф", "е", " ", "н", "а", "т", "у", "р", "а", "л", "ь", "н", "ы", "й", " ", "м", "о", "..." ]
+}
+[1601032195.977][INFO]: Waiting for pending navigations...
+[1601032195.979][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.192][INFO]: Waiting for pending navigations...
+[1601032196.201][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.201][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE TypeElement
+[1601032196.207][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"
+}
+[1601032196.207][INFO]: Waiting for pending navigations...
+[1601032196.208][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.225][INFO]: Waiting for pending navigations...
+[1601032196.226][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.226][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"}
+  (Session info: chrome=85.0.4183.121)
+[1601032196.451][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"
+}
+[1601032196.451][INFO]: Waiting for pending navigations...
+[1601032196.452][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.463][INFO]: Waiting for pending navigations...
+[1601032196.464][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.464][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"}
+  (Session info: chrome=85.0.4183.121)
+[1601032196.672][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"
+}
+[1601032196.672][INFO]: Waiting for pending navigations...
+[1601032196.673][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.681][INFO]: Waiting for pending navigations...
+[1601032196.682][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.682][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"}
+  (Session info: chrome=85.0.4183.121)
+[1601032196.891][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"
+}
+[1601032196.892][INFO]: Waiting for pending navigations...
+[1601032196.893][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.901][INFO]: Waiting for pending navigations...
+[1601032196.902][INFO]: Done waiting for pending navigations. Status: ok
+[1601032196.902][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"}
+  (Session info: chrome=85.0.4183.121)
+[1601032197.112][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card products_card_739099 trademark_6205']//div[@class='title']"
+}
+[1601032197.112][INFO]: Waiting for pending navigations...
+[1601032197.113][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.125][INFO]: Waiting for pending navigations...
+[1601032197.127][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.128][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "c81aee3f-53f2-4226-b8ee-0f636ac4b330"
+}
+[1601032197.145][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "c81aee3f-53f2-4226-b8ee-0f636ac4b330"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032197.145][INFO]: Waiting for pending navigations...
+[1601032197.146][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.158][INFO]: Waiting for pending navigations...
+[1601032197.160][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.160][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032197.164][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ClickElement {
+   "id": "c81aee3f-53f2-4226-b8ee-0f636ac4b330"
+}
+[1601032197.165][INFO]: Waiting for pending navigations...
+[1601032197.166][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.277][INFO]: Waiting for pending navigations...
+[1601032197.331][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.331][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ClickElement
+[1601032197.337][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032197.337][INFO]: Waiting for pending navigations...
+[1601032197.366][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.418][INFO]: Waiting for pending navigations...
+[1601032197.419][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.419][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='products_card']//h2"}
+  (Session info: chrome=85.0.4183.121)
+[1601032197.630][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032197.630][INFO]: Waiting for pending navigations...
+[1601032197.787][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.873][INFO]: Waiting for pending navigations...
+[1601032197.881][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.881][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032197.884][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032197.884][INFO]: Waiting for pending navigations...
+[1601032197.893][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.915][INFO]: Waiting for pending navigations...
+[1601032197.920][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.920][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032197.926][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032197.926][INFO]: Waiting for pending navigations...
+[1601032197.928][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.966][INFO]: Waiting for pending navigations...
+[1601032197.968][INFO]: Done waiting for pending navigations. Status: ok
+[1601032197.968][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032197.987][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032197.988][INFO]: Waiting for pending navigations...
+[1601032198.001][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.025][INFO]: Waiting for pending navigations...
+[1601032198.026][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.027][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032198.035][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032198.035][INFO]: Waiting for pending navigations...
+[1601032198.057][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.071][INFO]: Waiting for pending navigations...
+[1601032198.074][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.074][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032198.088][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032198.089][INFO]: Waiting for pending navigations...
+[1601032198.148][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.190][INFO]: Waiting for pending navigations...
+[1601032198.209][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.209][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032198.224][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032198.225][INFO]: Waiting for pending navigations...
+[1601032198.246][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.257][INFO]: Waiting for pending navigations...
+[1601032198.261][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.261][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032198.264][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.264][INFO]: Waiting for pending navigations...
+[1601032198.265][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.295][INFO]: Waiting for pending navigations...
+[1601032198.309][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.309][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032198.323][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032198.323][INFO]: Waiting for pending navigations...
+[1601032198.326][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.338][INFO]: Waiting for pending navigations...
+[1601032198.343][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.343][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032198.346][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.346][INFO]: Waiting for pending navigations...
+[1601032198.348][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.361][INFO]: Waiting for pending navigations...
+[1601032198.364][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.364][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032198.368][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.368][INFO]: Waiting for pending navigations...
+[1601032198.369][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.379][INFO]: Waiting for pending navigations...
+[1601032198.380][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.380][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032198.587][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032198.587][INFO]: Waiting for pending navigations...
+[1601032198.591][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.603][INFO]: Waiting for pending navigations...
+[1601032198.604][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.604][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.608][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.608][INFO]: Waiting for pending navigations...
+[1601032198.610][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.613][INFO]: Waiting for pending navigations...
+[1601032198.614][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.614][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032198.617][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.617][INFO]: Waiting for pending navigations...
+[1601032198.619][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.630][INFO]: Waiting for pending navigations...
+[1601032198.631][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.631][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032198.634][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.634][INFO]: Waiting for pending navigations...
+[1601032198.635][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.641][INFO]: Waiting for pending navigations...
+[1601032198.643][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.643][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032198.649][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032198.649][INFO]: Waiting for pending navigations...
+[1601032198.650][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.654][INFO]: Waiting for pending navigations...
+[1601032198.658][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.658][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032198.665][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032198.665][INFO]: Waiting for pending navigations...
+[1601032198.666][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.671][INFO]: Waiting for pending navigations...
+[1601032198.675][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.675][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032198.682][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032198.682][INFO]: Waiting for pending navigations...
+[1601032198.684][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.688][INFO]: Waiting for pending navigations...
+[1601032198.695][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.695][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032198.698][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.698][INFO]: Waiting for pending navigations...
+[1601032198.699][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.710][INFO]: Waiting for pending navigations...
+[1601032198.711][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.711][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032198.730][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032198.730][INFO]: Waiting for pending navigations...
+[1601032198.732][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.744][INFO]: Waiting for pending navigations...
+[1601032198.745][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.745][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032198.748][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.748][INFO]: Waiting for pending navigations...
+[1601032198.749][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.763][INFO]: Waiting for pending navigations...
+[1601032198.764][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.765][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032198.767][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.767][INFO]: Waiting for pending navigations...
+[1601032198.768][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.771][INFO]: Waiting for pending navigations...
+[1601032198.773][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.774][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032198.979][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032198.979][INFO]: Waiting for pending navigations...
+[1601032198.980][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.992][INFO]: Waiting for pending navigations...
+[1601032198.994][INFO]: Done waiting for pending navigations. Status: ok
+[1601032198.995][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.997][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032198.997][INFO]: Waiting for pending navigations...
+[1601032198.998][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.001][INFO]: Waiting for pending navigations...
+[1601032199.002][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.002][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.006][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.006][INFO]: Waiting for pending navigations...
+[1601032199.008][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.017][INFO]: Waiting for pending navigations...
+[1601032199.018][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.018][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.021][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.021][INFO]: Waiting for pending navigations...
+[1601032199.023][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.026][INFO]: Waiting for pending navigations...
+[1601032199.027][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.027][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.031][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032199.031][INFO]: Waiting for pending navigations...
+[1601032199.032][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.034][INFO]: Waiting for pending navigations...
+[1601032199.035][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.036][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032199.043][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.043][INFO]: Waiting for pending navigations...
+[1601032199.044][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.047][INFO]: Waiting for pending navigations...
+[1601032199.048][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.048][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.055][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.055][INFO]: Waiting for pending navigations...
+[1601032199.057][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.061][INFO]: Waiting for pending navigations...
+[1601032199.062][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.062][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.064][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.064][INFO]: Waiting for pending navigations...
+[1601032199.065][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.070][INFO]: Waiting for pending navigations...
+[1601032199.073][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.073][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032199.083][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032199.083][INFO]: Waiting for pending navigations...
+[1601032199.085][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.094][INFO]: Waiting for pending navigations...
+[1601032199.095][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.095][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032199.097][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.097][INFO]: Waiting for pending navigations...
+[1601032199.099][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.107][INFO]: Waiting for pending navigations...
+[1601032199.109][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.109][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.111][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.111][INFO]: Waiting for pending navigations...
+[1601032199.113][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.115][INFO]: Waiting for pending navigations...
+[1601032199.116][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.116][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.321][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032199.321][INFO]: Waiting for pending navigations...
+[1601032199.324][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.333][INFO]: Waiting for pending navigations...
+[1601032199.334][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.334][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.337][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.337][INFO]: Waiting for pending navigations...
+[1601032199.340][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.343][INFO]: Waiting for pending navigations...
+[1601032199.344][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.344][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.346][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.346][INFO]: Waiting for pending navigations...
+[1601032199.347][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.355][INFO]: Waiting for pending navigations...
+[1601032199.357][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.357][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.359][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.359][INFO]: Waiting for pending navigations...
+[1601032199.361][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.363][INFO]: Waiting for pending navigations...
+[1601032199.364][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.364][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.368][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032199.368][INFO]: Waiting for pending navigations...
+[1601032199.369][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.375][INFO]: Waiting for pending navigations...
+[1601032199.376][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.376][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032199.381][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.381][INFO]: Waiting for pending navigations...
+[1601032199.382][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.386][INFO]: Waiting for pending navigations...
+[1601032199.387][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.387][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.392][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.392][INFO]: Waiting for pending navigations...
+[1601032199.393][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.396][INFO]: Waiting for pending navigations...
+[1601032199.398][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.398][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.400][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.400][INFO]: Waiting for pending navigations...
+[1601032199.401][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.408][INFO]: Waiting for pending navigations...
+[1601032199.409][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.409][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032199.418][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032199.418][INFO]: Waiting for pending navigations...
+[1601032199.420][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.428][INFO]: Waiting for pending navigations...
+[1601032199.430][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.430][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032199.432][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.432][INFO]: Waiting for pending navigations...
+[1601032199.433][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.442][INFO]: Waiting for pending navigations...
+[1601032199.444][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.444][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.446][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.446][INFO]: Waiting for pending navigations...
+[1601032199.447][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.450][INFO]: Waiting for pending navigations...
+[1601032199.451][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.451][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.656][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032199.656][INFO]: Waiting for pending navigations...
+[1601032199.657][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.666][INFO]: Waiting for pending navigations...
+[1601032199.667][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.667][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.669][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.669][INFO]: Waiting for pending navigations...
+[1601032199.670][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.673][INFO]: Waiting for pending navigations...
+[1601032199.674][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.674][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.676][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.676][INFO]: Waiting for pending navigations...
+[1601032199.677][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.684][INFO]: Waiting for pending navigations...
+[1601032199.686][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.686][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.688][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.688][INFO]: Waiting for pending navigations...
+[1601032199.690][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.692][INFO]: Waiting for pending navigations...
+[1601032199.693][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.693][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.698][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032199.698][INFO]: Waiting for pending navigations...
+[1601032199.699][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.701][INFO]: Waiting for pending navigations...
+[1601032199.702][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.702][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032199.709][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.709][INFO]: Waiting for pending navigations...
+[1601032199.710][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.713][INFO]: Waiting for pending navigations...
+[1601032199.714][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.714][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.719][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032199.719][INFO]: Waiting for pending navigations...
+[1601032199.720][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.724][INFO]: Waiting for pending navigations...
+[1601032199.725][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.725][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032199.727][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.727][INFO]: Waiting for pending navigations...
+[1601032199.728][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.732][INFO]: Waiting for pending navigations...
+[1601032199.734][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.734][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032199.745][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032199.745][INFO]: Waiting for pending navigations...
+[1601032199.746][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.754][INFO]: Waiting for pending navigations...
+[1601032199.757][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.757][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032199.759][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.759][INFO]: Waiting for pending navigations...
+[1601032199.760][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.767][INFO]: Waiting for pending navigations...
+[1601032199.769][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.770][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032199.772][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032199.772][INFO]: Waiting for pending navigations...
+[1601032199.775][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.778][INFO]: Waiting for pending navigations...
+[1601032199.780][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.780][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032199.985][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032199.985][INFO]: Waiting for pending navigations...
+[1601032199.986][INFO]: Done waiting for pending navigations. Status: ok
+[1601032199.998][INFO]: Waiting for pending navigations...
+[1601032200.000][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.000][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.007][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.007][INFO]: Waiting for pending navigations...
+[1601032200.011][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.014][INFO]: Waiting for pending navigations...
+[1601032200.015][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.015][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.018][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.018][INFO]: Waiting for pending navigations...
+[1601032200.019][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.028][INFO]: Waiting for pending navigations...
+[1601032200.029][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.029][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.032][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.032][INFO]: Waiting for pending navigations...
+[1601032200.033][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.035][INFO]: Waiting for pending navigations...
+[1601032200.036][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.036][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.041][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032200.041][INFO]: Waiting for pending navigations...
+[1601032200.043][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.045][INFO]: Waiting for pending navigations...
+[1601032200.046][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.046][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032200.053][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.053][INFO]: Waiting for pending navigations...
+[1601032200.057][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.060][INFO]: Waiting for pending navigations...
+[1601032200.061][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.061][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.067][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.067][INFO]: Waiting for pending navigations...
+[1601032200.068][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.074][INFO]: Waiting for pending navigations...
+[1601032200.075][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.075][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.076][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.076][INFO]: Waiting for pending navigations...
+[1601032200.077][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.081][INFO]: Waiting for pending navigations...
+[1601032200.082][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.082][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032200.095][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032200.095][INFO]: Waiting for pending navigations...
+[1601032200.096][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.108][INFO]: Waiting for pending navigations...
+[1601032200.111][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.112][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032200.114][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.114][INFO]: Waiting for pending navigations...
+[1601032200.115][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.123][INFO]: Waiting for pending navigations...
+[1601032200.126][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.126][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.128][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.128][INFO]: Waiting for pending navigations...
+[1601032200.129][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.131][INFO]: Waiting for pending navigations...
+[1601032200.132][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.132][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.336][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032200.336][INFO]: Waiting for pending navigations...
+[1601032200.337][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.348][INFO]: Waiting for pending navigations...
+[1601032200.349][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.349][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.351][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.351][INFO]: Waiting for pending navigations...
+[1601032200.352][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.360][INFO]: Waiting for pending navigations...
+[1601032200.362][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.362][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.364][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.364][INFO]: Waiting for pending navigations...
+[1601032200.365][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.374][INFO]: Waiting for pending navigations...
+[1601032200.379][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.379][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.382][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.382][INFO]: Waiting for pending navigations...
+[1601032200.383][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.385][INFO]: Waiting for pending navigations...
+[1601032200.387][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.387][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.394][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032200.394][INFO]: Waiting for pending navigations...
+[1601032200.395][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.398][INFO]: Waiting for pending navigations...
+[1601032200.399][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.399][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032200.406][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.406][INFO]: Waiting for pending navigations...
+[1601032200.410][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.414][INFO]: Waiting for pending navigations...
+[1601032200.415][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.415][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.422][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.422][INFO]: Waiting for pending navigations...
+[1601032200.427][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.430][INFO]: Waiting for pending navigations...
+[1601032200.432][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.432][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.434][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.434][INFO]: Waiting for pending navigations...
+[1601032200.435][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.449][INFO]: Waiting for pending navigations...
+[1601032200.450][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.450][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032200.469][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032200.469][INFO]: Waiting for pending navigations...
+[1601032200.476][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.490][INFO]: Waiting for pending navigations...
+[1601032200.495][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.495][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032200.497][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.497][INFO]: Waiting for pending navigations...
+[1601032200.499][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.510][INFO]: Waiting for pending navigations...
+[1601032200.517][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.517][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.520][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.520][INFO]: Waiting for pending navigations...
+[1601032200.527][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.530][INFO]: Waiting for pending navigations...
+[1601032200.531][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.531][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.735][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032200.735][INFO]: Waiting for pending navigations...
+[1601032200.737][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.746][INFO]: Waiting for pending navigations...
+[1601032200.747][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.747][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.749][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.749][INFO]: Waiting for pending navigations...
+[1601032200.751][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.753][INFO]: Waiting for pending navigations...
+[1601032200.756][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.757][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.759][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.759][INFO]: Waiting for pending navigations...
+[1601032200.760][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.767][INFO]: Waiting for pending navigations...
+[1601032200.768][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.768][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.771][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.771][INFO]: Waiting for pending navigations...
+[1601032200.774][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.777][INFO]: Waiting for pending navigations...
+[1601032200.778][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.778][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032200.782][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032200.782][INFO]: Waiting for pending navigations...
+[1601032200.784][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.787][INFO]: Waiting for pending navigations...
+[1601032200.790][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.790][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032200.797][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.797][INFO]: Waiting for pending navigations...
+[1601032200.798][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.801][INFO]: Waiting for pending navigations...
+[1601032200.802][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.802][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.808][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032200.809][INFO]: Waiting for pending navigations...
+[1601032200.810][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.813][INFO]: Waiting for pending navigations...
+[1601032200.814][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.814][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032200.816][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.816][INFO]: Waiting for pending navigations...
+[1601032200.817][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.824][INFO]: Waiting for pending navigations...
+[1601032200.826][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.826][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032200.835][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032200.835][INFO]: Waiting for pending navigations...
+[1601032200.836][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.845][INFO]: Waiting for pending navigations...
+[1601032200.846][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.846][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032200.848][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.848][INFO]: Waiting for pending navigations...
+[1601032200.849][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.859][INFO]: Waiting for pending navigations...
+[1601032200.860][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.860][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032200.862][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032200.862][INFO]: Waiting for pending navigations...
+[1601032200.864][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.866][INFO]: Waiting for pending navigations...
+[1601032200.867][INFO]: Done waiting for pending navigations. Status: ok
+[1601032200.867][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032201.071][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='products_card']//h2"
+}
+[1601032201.071][INFO]: Waiting for pending navigations...
+[1601032201.074][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.082][INFO]: Waiting for pending navigations...
+[1601032201.083][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.083][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.085][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.085][INFO]: Waiting for pending navigations...
+[1601032201.086][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.090][INFO]: Waiting for pending navigations...
+[1601032201.091][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.091][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032201.093][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.093][INFO]: Waiting for pending navigations...
+[1601032201.095][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.101][INFO]: Waiting for pending navigations...
+[1601032201.102][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.102][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032201.105][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.105][INFO]: Waiting for pending navigations...
+[1601032201.108][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.111][INFO]: Waiting for pending navigations...
+[1601032201.112][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.112][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032201.116][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8",
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1601032201.116][INFO]: Waiting for pending navigations...
+[1601032201.118][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.121][INFO]: Waiting for pending navigations...
+[1601032201.125][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.125][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript {
+
+}
+[1601032201.131][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032201.131][INFO]: Waiting for pending navigations...
+[1601032201.132][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.135][INFO]: Waiting for pending navigations...
+[1601032201.136][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.136][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032201.144][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1601032201.144][INFO]: Waiting for pending navigations...
+[1601032201.145][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.148][INFO]: Waiting for pending navigations...
+[1601032201.149][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.149][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript null
+[1601032201.151][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND IsElementSelected {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.151][INFO]: Waiting for pending navigations...
+[1601032201.152][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.157][INFO]: Waiting for pending navigations...
+[1601032201.159][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.159][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE IsElementSelected false
+[1601032201.170][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601032201.170][INFO]: Waiting for pending navigations...
+[1601032201.174][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.181][INFO]: Waiting for pending navigations...
+[1601032201.183][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.183][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript true
+[1601032201.185][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementText {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.185][INFO]: Waiting for pending navigations...
+[1601032201.187][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.195][INFO]: Waiting for pending navigations...
+[1601032201.196][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.196][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementText "Кофе натуральный молотый «Barista Mio» 100% арабика, 250 г."
+[1601032201.199][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND GetElementTagName {
+   "id": "aaf2f30e-9d56-476f-8ea7-b6cc1c283ab8"
+}
+[1601032201.199][INFO]: Waiting for pending navigations...
+[1601032201.200][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.202][INFO]: Waiting for pending navigations...
+[1601032201.203][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.203][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE GetElementTagName "h2"
+[1601032201.415][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601032201.415][INFO]: Waiting for pending navigations...
+[1601032201.416][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.457][INFO]: Waiting for pending navigations...
+[1601032201.458][INFO]: Done waiting for pending navigations. Status: ok
+[1601032201.458][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE ExecuteScript "\u003Chtml lang=\"ru\" class=\"desktop landscape ready no-touch\" style=\"margin-right: 17px; overflow: hidden;\">\u003Chead>    \u003Ctitle>Продукты питания и промышленные товары с �..."
+[1601032201.542][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND Screenshot {
+
+}
+[1601032201.542][INFO]: Waiting for pending navigations...
+[1601032201.543][INFO]: Done waiting for pending navigations. Status: ok
+[1601032202.924][INFO]: Waiting for pending navigations...
+[1601032202.925][INFO]: Done waiting for pending navigations. Status: ok
+[1601032202.927][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAADTkAAAapCAYAAAA5Ou37AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xl0XNd9J/jvw05iIwACIAiC+74vEkVrtWQllmzHspN4iXvipNPZup1klj6Zk8xkOuOcXk6fnJ5Oeyad9nQ6nYlnEttJ7DjtWEosy7JsSdTCRRRBUiRICgBBk..."
+[1601032203.249][INFO]: [854e403cfa51beb33767170d0931b2c0] COMMAND Quit {
+
+}
+[1601032203.310][INFO]: [854e403cfa51beb33767170d0931b2c0] RESPONSE Quit

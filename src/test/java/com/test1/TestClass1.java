@@ -11,7 +11,7 @@ public class TestClass1 {
     @Parameters({"firstParameter","secondParameter"})
     @Test
     public void testNotEquals(int firstParameter, int  secondParameter) throws Exception {
-        Assert.assertNotEquals(firstParameter,secondParameter);
+        Assert.assertNotEquals(firstParameter,secondParameter,"rereree");
         System.out.println("Success!");
     }
 
