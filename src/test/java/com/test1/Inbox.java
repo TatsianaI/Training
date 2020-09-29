@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
+
+import static com.codeborne.selenide.Selectors.by;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
@@ -15,7 +17,8 @@ public class Inbox extends MailTestTask{
 
     private static final int MIN_EXPECTED_AMOUNT_OF_IN_EMAILS = 1800;
     private static final int EXPECTED_NUMBER_OF_WORLDS_IN_MAIL_COUNT_HINT = 5;
-    private static final SelenideElement inboxLink = $(".b-nav__link");
+    //private static final SelenideElement inboxLink = $(".b-nav__link");
+    private static final SelenideElement inboxLink = $(by("href","/inbox/"));
 
     @Test
     public void showsNumberOfMessages(){
