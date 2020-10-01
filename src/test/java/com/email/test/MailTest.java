@@ -2,11 +2,14 @@ package com.email.test;
 
 import com.codeborne.selenide.WebDriverRunner;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import com.codeborne.selenide.Selenide;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Listeners(com.test1.CustomListener.class)
@@ -27,13 +30,14 @@ public class MailTest {
         Assert.assertTrue( actual >= MIN_EXPECTED_AMOUNT_OF_IN_EMAILS );
     }
 
-    @Test
-    public void shouldSuccessfullySendEmail() {
+
+    @Test(dataProvider ="emailProvider", dataProviderClass = EmailDataProvider.class)
+    public void shouldSuccessfullySendEmail(String email) {
         System.out.println("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
         boolean mailSent = new OpenMailAndLoginPage()
                 .login(Username, Password)
                 .openFormForCreatingNewEmail()
-                .createAndSendNewEmail()
+                .createAndSendNewEmail(email)
                 .isMailSendingConfirmationShown();
         Assert.assertTrue(mailSent);
     }
@@ -43,4 +47,6 @@ public class MailTest {
         System.out.println("===============================================");
         WebDriverRunner.closeWebDriver();
     }
+
+
 }

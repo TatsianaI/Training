@@ -13,10 +13,10 @@ public class NewEmailFormPage {
     private final String INPUT_SUBJECT = "Subject";
     private final String INPUT_MAIN_TEXT = "cke_editable";
 
-    public EmailSendingResultPage  createAndSendNewEmail() {
+    public EmailSendingResultPage createAndSendNewEmail(String email) {
         //     $("div[class^='contactsContainer-']").find("input").setValue("aaaa@sss.cc");
        // $(By.xpath(INPUT_TO)).val("small.crazy.squirrel@gmail.com");
-        $(INPUT_TO).find("input").val("small.crazy.squirrel@gmail.com");
+        $(INPUT_TO).find("input").val(email);
         $(By.name(INPUT_SUBJECT)).val("Test").pressTab();
         $(By.className(INPUT_MAIN_TEXT)).setValue("text of the email to be sent");
         $(byText(NAME_BUTTON_FOR_SENDING_MAIL)).click();
