@@ -17,21 +17,24 @@ import static com.codeborne.selenide.Selenide.*;
 public class TheInternetTests {
 
     //public SelenideElement DISAPPEARING_GALERY = $(by("href","/gallery/"));
+    public String URL_DISAPPEAR = "https://the-internet.herokuapp.com/disappearing_elements";
+    public String URL_DOWNLOAD = "https://the-internet.herokuapp.com/download";
     public SelenideElement DISAPPEARING_GALERY = $$(".example>ul>li>a").get(4);
     public SelenideElement DOWNLOAD_LINK = $$(".example>a").get(0);
+    public String DISAPPEARING_TEXT = "Gallery";
 
     @Test
     public void disappearingElements() {
 
-        open("https://the-internet.herokuapp.com/disappearing_elements");
+        open(URL_DISAPPEAR);
         WebDriverRunner.getWebDriver().navigate().refresh();
         try {
             if(DISAPPEARING_GALERY.is(Condition.visible)) {
-                Assert.assertEquals(DISAPPEARING_GALERY.text(),"Gallery");
+                Assert.assertEquals(DISAPPEARING_GALERY.text(),DISAPPEARING_TEXT);
             } else {
                 WebDriverRunner.getWebDriver().navigate().refresh();
                 if (DISAPPEARING_GALERY.is(Condition.visible)) {
-                    Assert.assertEquals(DISAPPEARING_GALERY.text(),"Gallery");
+                    Assert.assertEquals(DISAPPEARING_GALERY.text(),DISAPPEARING_TEXT);
                 }
             }
         } catch (NoSuchElementException ne) {
@@ -42,7 +45,7 @@ public class TheInternetTests {
 
     @Test
     public void downloadFile() {
-        open("https://the-internet.herokuapp.com/download");
+        open(URL_DOWNLOAD);
         try {
             String file = DOWNLOAD_LINK.download().toString();
                Assert.assertTrue(file.contains(DOWNLOAD_LINK.text()));
