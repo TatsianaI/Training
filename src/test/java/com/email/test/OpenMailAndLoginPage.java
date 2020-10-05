@@ -15,11 +15,6 @@ public class OpenMailAndLoginPage {
 
     public OpenMailAndLoginPage() {
         Selenide.open(URL);
-        if (!url().contains(URL)) {
-            throw new IllegalStateException(
-                    "This is not the page you are expected"
-            );
-        }
     }
 
     public MainPage login (String username, String password) {
