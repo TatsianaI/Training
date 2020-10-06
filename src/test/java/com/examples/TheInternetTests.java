@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -89,11 +90,13 @@ public class TheInternetTests {
 
     @Test
     public void uploadFile() {
+        SoftAssert asert=new SoftAssert();
         open(URL_UPLOADER);
         $("#file-upload").sendKeys("D:\\uploadTest.jpg");
         $("#file-submit").click();
-        Assert.assertTrue(UPLOADED_FILE_ID.is(Condition.visible));
-        Assert.assertTrue(UPLOADED_FILE_ID.text().contains("uploadTest"));
+        asert.assertTrue(UPLOADED_FILE_ID.is(Condition.visible));
+        asert.assertTrue(UPLOADED_FILE_ID.text().contains("uploadTest"));
+        asert.assertAll();
         WebDriverRunner.getWebDriver().navigate().back();
         File file = new File("D:\\uploadTest.jpg");
         //WebElement element = WebDriverRunner.getWebDriver().findElement(By.xpath("//div[@id='drag-drop-upload']")).click();
